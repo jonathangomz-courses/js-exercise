@@ -1,13 +1,17 @@
 # [Exercise-title]
 
-## Coding
-Clone this repository:
+## Instructions
+[The instructions goes here...]
+
+## How to Work
+### Coding
+- Clone this repository:
 
 ```bash
 git  clone [repository-url]
 ```
 
-Write your code on `exercise.js`
+- Write your code on `exercise.js`
 
 ```javascript
 // example
@@ -16,23 +20,23 @@ const sum = (a, b) => a + b;
 module.exports = sum;
 ```
 
-Run your code:
+- Run your code:
 
 ```bash
 npm start
 ```
 
-## Testing
-**Optional for testing (Jest)**
+### Testing
+*Optional for testing (Jest)*
 
-Install dependencies:
+- Install dependencies:
 
 ```bash
 cd [repository-name]
 npm install
 ```
 
-Run jest:
+- Run jest:
 ```
 npm test
 ```
