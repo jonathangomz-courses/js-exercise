@@ -1,7 +1,6 @@
 # [Exercise-title]
 
-## How to work
-### Coding
+## Coding
 Clone this repository:
 
 ```bash
@@ -23,7 +22,7 @@ Run your code:
 npm start
 ```
 
-### Testing
+## Testing
 **Optional for testing (Jest)**
 
 Install dependencies:
@@ -37,5 +36,3 @@ Run jest:
 ```
 npm test
 ```
-
-## asdasdasd
