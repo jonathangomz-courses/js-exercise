@@ -9,13 +9,21 @@
 
 ```bash
 git  clone [repository-url]
+cd [repository-name]
 ```
 
 - Write your code on `exercise.js`
 
 ```javascript
 // example
-const sum = (a, b) => a + b;
+function sum(a, b) {
+  return a + b;
+}
+
+(function() {
+  const res = sum(1, 3);
+  console.log(res);
+})();
 
 module.exports = sum;
 ```
@@ -26,13 +34,12 @@ module.exports = sum;
 npm start
 ```
 
-### Testing
-*Optional for testing (Jest)*
+### Testing*
+**Optional for testing (Jest)*
 
 - Install dependencies:
 
 ```bash
-cd [repository-name]
 npm install
 ```
 
