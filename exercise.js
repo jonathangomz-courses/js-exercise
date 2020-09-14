@@ -1,9 +1,11 @@
-// Your function goes here...
+function <function-name>(<some>, <params>) {
+  // Your logic goes here...
+  return <something>
+}
 
-/** code example
-const sum = (a, b) => a + b;
+(function () {
+  const res = <function-name>(<some>, <args>);
+  console.log(res);
+})()
 
-module.exports = sum;
-*/
-
-// module.exports = <function-name>;
+module.exports = <function-name>;
