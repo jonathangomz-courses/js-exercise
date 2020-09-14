@@ -8,7 +8,7 @@
 - Clone this repository:
 
 ```bash
-git  clone [repository-url]
+git clone [repository-url]
 cd [repository-name]
 ```
 
